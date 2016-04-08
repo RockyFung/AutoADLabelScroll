@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF434441CB7537900680B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF434431CB7537900680B2E /* main.m */; };
+		5CF434471CB7537900680B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF434461CB7537900680B2E /* AppDelegate.m */; };
+		5CF4344A1CB7537900680B2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF434491CB7537900680B2E /* ViewController.m */; };
+		5CF4344D1CB7537900680B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4344B1CB7537900680B2E /* Main.storyboard */; };
+		5CF4344F1CB7537900680B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4344E1CB7537900680B2E /* Assets.xcassets */; };
+		5CF434521CB7537900680B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF434501CB7537900680B2E /* LaunchScreen.storyboard */; };
+		5CF4345D1CB7537A00680B2E /* AutoADLabelScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4345C1CB7537A00680B2E /* AutoADLabelScrollTests.m */; };
+		5CF434681CB7537A00680B2E /* AutoADLabelScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF434671CB7537A00680B2E /* AutoADLabelScrollUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF434591CB7537A00680B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF434371CB7537900680B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF4343E1CB7537900680B2E;
+			remoteInfo = AutoADLabelScroll;
+		};
+		5CF434641CB7537A00680B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF434371CB7537900680B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF4343E1CB7537900680B2E;
+			remoteInfo = AutoADLabelScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF4343F1CB7537900680B2E /* AutoADLabelScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoADLabelScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF434431CB7537900680B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF434451CB7537900680B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF434461CB7537900680B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF434481CB7537900680B2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CF434491CB7537900680B2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CF4344C1CB7537900680B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF4344E1CB7537900680B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF434511CB7537900680B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF434531CB7537900680B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF434581CB7537A00680B2E /* AutoADLabelScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoADLabelScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF4345C1CB7537A00680B2E /* AutoADLabelScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoADLabelScrollTests.m; sourceTree = "<group>"; };
+		5CF4345E1CB7537A00680B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF434631CB7537A00680B2E /* AutoADLabelScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoADLabelScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF434671CB7537A00680B2E /* AutoADLabelScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoADLabelScrollUITests.m; sourceTree = "<group>"; };
+		5CF434691CB7537A00680B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF4343C1CB7537900680B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF434551CB7537A00680B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF434601CB7537A00680B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF434361CB7537900680B2E = {
+			isa = PBXGroup;
+			children = (
+				5CF434411CB7537900680B2E /* AutoADLabelScroll */,
+				5CF4345B1CB7537A00680B2E /* AutoADLabelScrollTests */,
+				5CF434661CB7537A00680B2E /* AutoADLabelScrollUITests */,
+				5CF434401CB7537900680B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF434401CB7537900680B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4343F1CB7537900680B2E /* AutoADLabelScroll.app */,
+				5CF434581CB7537A00680B2E /* AutoADLabelScrollTests.xctest */,
+				5CF434631CB7537A00680B2E /* AutoADLabelScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF434411CB7537900680B2E /* AutoADLabelScroll */ = {
+			isa = PBXGroup;
+			children = (
+				5CF434451CB7537900680B2E /* AppDelegate.h */,
+				5CF434461CB7537900680B2E /* AppDelegate.m */,
+				5CF434481CB7537900680B2E /* ViewController.h */,
+				5CF434491CB7537900680B2E /* ViewController.m */,
+				5CF4344B1CB7537900680B2E /* Main.storyboard */,
+				5CF4344E1CB7537900680B2E /* Assets.xcassets */,
+				5CF434501CB7537900680B2E /* LaunchScreen.storyboard */,
+				5CF434531CB7537900680B2E /* Info.plist */,
+				5CF434421CB7537900680B2E /* Supporting Files */,
+			);
+			path = AutoADLabelScroll;
+			sourceTree = "<group>";
+		};
+		5CF434421CB7537900680B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF434431CB7537900680B2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF4345B1CB7537A00680B2E /* AutoADLabelScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4345C1CB7537A00680B2E /* AutoADLabelScrollTests.m */,
+				5CF4345E1CB7537A00680B2E /* Info.plist */,
+			);
+			path = AutoADLabelScrollTests;
+			sourceTree = "<group>";
+		};
+		5CF434661CB7537A00680B2E /* AutoADLabelScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF434671CB7537A00680B2E /* AutoADLabelScrollUITests.m */,
+				5CF434691CB7537A00680B2E /* Info.plist */,
+			);
+			path = AutoADLabelScrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF4343E1CB7537900680B2E /* AutoADLabelScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF4346C1CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScroll" */;
+			buildPhases = (
+				5CF4343B1CB7537900680B2E /* Sources */,
+				5CF4343C1CB7537900680B2E /* Frameworks */,
+				5CF4343D1CB7537900680B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoADLabelScroll;
+			productName = AutoADLabelScroll;
+			productReference = 5CF4343F1CB7537900680B2E /* AutoADLabelScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF434571CB7537A00680B2E /* AutoADLabelScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF4346F1CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScrollTests" */;
+			buildPhases = (
+				5CF434541CB7537A00680B2E /* Sources */,
+				5CF434551CB7537A00680B2E /* Frameworks */,
+				5CF434561CB7537A00680B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF4345A1CB7537A00680B2E /* PBXTargetDependency */,
+			);
+			name = AutoADLabelScrollTests;
+			productName = AutoADLabelScrollTests;
+			productReference = 5CF434581CB7537A00680B2E /* AutoADLabelScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF434621CB7537A00680B2E /* AutoADLabelScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF434721CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScrollUITests" */;
+			buildPhases = (
+				5CF4345F1CB7537A00680B2E /* Sources */,
+				5CF434601CB7537A00680B2E /* Frameworks */,
+				5CF434611CB7537A00680B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF434651CB7537A00680B2E /* PBXTargetDependency */,
+			);
+			name = AutoADLabelScrollUITests;
+			productName = AutoADLabelScrollUITests;
+			productReference = 5CF434631CB7537A00680B2E /* AutoADLabelScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF434371CB7537900680B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RockyFung;
+				TargetAttributes = {
+					5CF4343E1CB7537900680B2E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5CF434571CB7537A00680B2E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5CF4343E1CB7537900680B2E;
+					};
+					5CF434621CB7537A00680B2E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5CF4343E1CB7537900680B2E;
+					};
+				};
+			};
+			buildConfigurationList = 5CF4343A1CB7537900680B2E /* Build configuration list for PBXProject "AutoADLabelScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF434361CB7537900680B2E;
+			productRefGroup = 5CF434401CB7537900680B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF4343E1CB7537900680B2E /* AutoADLabelScroll */,
+				5CF434571CB7537A00680B2E /* AutoADLabelScrollTests */,
+				5CF434621CB7537A00680B2E /* AutoADLabelScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF4343D1CB7537900680B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF434521CB7537900680B2E /* LaunchScreen.storyboard in Resources */,
+				5CF4344F1CB7537900680B2E /* Assets.xcassets in Resources */,
+				5CF4344D1CB7537900680B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF434561CB7537A00680B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF434611CB7537A00680B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF4343B1CB7537900680B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF4344A1CB7537900680B2E /* ViewController.m in Sources */,
+				5CF434471CB7537900680B2E /* AppDelegate.m in Sources */,
+				5CF434441CB7537900680B2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF434541CB7537A00680B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF4345D1CB7537A00680B2E /* AutoADLabelScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4345F1CB7537A00680B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF434681CB7537A00680B2E /* AutoADLabelScrollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF4345A1CB7537A00680B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF4343E1CB7537900680B2E /* AutoADLabelScroll */;
+			targetProxy = 5CF434591CB7537A00680B2E /* PBXContainerItemProxy */;
+		};
+		5CF434651CB7537A00680B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF4343E1CB7537900680B2E /* AutoADLabelScroll */;
+			targetProxy = 5CF434641CB7537A00680B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF4344B1CB7537900680B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF4344C1CB7537900680B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF434501CB7537900680B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF434511CB7537900680B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF4346A1CB7537A00680B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF4346B1CB7537A00680B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF4346D1CB7537A00680B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoADLabelScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CF4346E1CB7537A00680B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoADLabelScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CF434701CB7537A00680B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoADLabelScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoADLabelScroll.app/AutoADLabelScroll";
+			};
+			name = Debug;
+		};
+		5CF434711CB7537A00680B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoADLabelScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoADLabelScroll.app/AutoADLabelScroll";
+			};
+			name = Release;
+		};
+		5CF434731CB7537A00680B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoADLabelScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoADLabelScroll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5CF434741CB7537A00680B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoADLabelScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaochunxinyu.AutoADLabelScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoADLabelScroll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF4343A1CB7537900680B2E /* Build configuration list for PBXProject "AutoADLabelScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4346A1CB7537A00680B2E /* Debug */,
+				5CF4346B1CB7537A00680B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF4346C1CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4346D1CB7537A00680B2E /* Debug */,
+				5CF4346E1CB7537A00680B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF4346F1CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF434701CB7537A00680B2E /* Debug */,
+				5CF434711CB7537A00680B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF434721CB7537A00680B2E /* Build configuration list for PBXNativeTarget "AutoADLabelScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF434731CB7537A00680B2E /* Debug */,
+				5CF434741CB7537A00680B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF434371CB7537900680B2E /* Project object */;
+}
