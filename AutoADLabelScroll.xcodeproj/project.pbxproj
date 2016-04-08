@@ -15,6 +15,9 @@
 		5CF434521CB7537900680B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF434501CB7537900680B2E /* LaunchScreen.storyboard */; };
 		5CF4345D1CB7537A00680B2E /* AutoADLabelScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4345C1CB7537A00680B2E /* AutoADLabelScrollTests.m */; };
 		5CF434681CB7537A00680B2E /* AutoADLabelScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF434671CB7537A00680B2E /* AutoADLabelScrollUITests.m */; };
+		5CF4347B1CB7546C00680B2E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4347A1CB7546C00680B2E /* DetailViewController.m */; };
+		5CF4347E1CB754FC00680B2E /* FJAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4347D1CB754FC00680B2E /* FJAdView.m */; };
+		5CF434801CB755C900680B2E /* counto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4347F1CB755C900680B2E /* counto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		5CF434631CB7537A00680B2E /* AutoADLabelScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoADLabelScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF434671CB7537A00680B2E /* AutoADLabelScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoADLabelScrollUITests.m; sourceTree = "<group>"; };
 		5CF434691CB7537A00680B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF434791CB7546C00680B2E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5CF4347A1CB7546C00680B2E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5CF4347C1CB754FC00680B2E /* FJAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAdView.h; sourceTree = "<group>"; };
+		5CF4347D1CB754FC00680B2E /* FJAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAdView.m; sourceTree = "<group>"; };
+		5CF4347F1CB755C900680B2E /* counto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = counto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,14 @@
 		5CF434411CB7537900680B2E /* AutoADLabelScroll */ = {
 			isa = PBXGroup;
 			children = (
+				5CF434751CB753B100680B2E /* FJAdLabelScroll */,
 				5CF434451CB7537900680B2E /* AppDelegate.h */,
 				5CF434461CB7537900680B2E /* AppDelegate.m */,
 				5CF434481CB7537900680B2E /* ViewController.h */,
 				5CF434491CB7537900680B2E /* ViewController.m */,
+				5CF434791CB7546C00680B2E /* DetailViewController.h */,
+				5CF4347A1CB7546C00680B2E /* DetailViewController.m */,
+				5CF4347F1CB755C900680B2E /* counto.jpg */,
 				5CF4344B1CB7537900680B2E /* Main.storyboard */,
 				5CF4344E1CB7537900680B2E /* Assets.xcassets */,
 				5CF434501CB7537900680B2E /* LaunchScreen.storyboard */,
@@ -138,6 +150,15 @@
 				5CF434691CB7537A00680B2E /* Info.plist */,
 			);
 			path = AutoADLabelScrollUITests;
+			sourceTree = "<group>";
+		};
+		5CF434751CB753B100680B2E /* FJAdLabelScroll */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4347C1CB754FC00680B2E /* FJAdView.h */,
+				5CF4347D1CB754FC00680B2E /* FJAdView.m */,
+			);
+			path = FJAdLabelScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF434521CB7537900680B2E /* LaunchScreen.storyboard in Resources */,
+				5CF434801CB755C900680B2E /* counto.jpg in Resources */,
 				5CF4344F1CB7537900680B2E /* Assets.xcassets in Resources */,
 				5CF4344D1CB7537900680B2E /* Main.storyboard in Resources */,
 			);
@@ -270,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF4347B1CB7546C00680B2E /* DetailViewController.m in Sources */,
 				5CF4344A1CB7537900680B2E /* ViewController.m in Sources */,
+				5CF4347E1CB754FC00680B2E /* FJAdView.m in Sources */,
 				5CF434471CB7537900680B2E /* AppDelegate.m in Sources */,
 				5CF434441CB7537900680B2E /* main.m in Sources */,
 			);
