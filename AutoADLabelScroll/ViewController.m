@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSArray *array = @[@"111111",@"22222222",@"33333333",@"4444444444"];
+    NSArray *array = @[@"111111",@"22222222",@"22222222",@"4444444444"];
     
     FJAdView * view = [[FJAdView alloc]initWithTitles:array];
     view.frame = CGRectMake(0, 64, self.view.frame.size.width, 44);

@@ -98,12 +98,13 @@
         
     }else{
         switch (index%2) {
+                // 偶数
             case 0:
             {
                 self.oneLabel.text = [NSString stringWithFormat:@"%@",self.adTitles[index]];
             }
                 break;
-                
+                // 奇数
             default:
             {
                 self.twoLabel.text = [NSString stringWithFormat:@"%@",self.adTitles[index]];
